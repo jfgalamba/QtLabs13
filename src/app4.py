@@ -12,6 +12,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     def onIntroduzirClicked(self):
         txt = self.leNome.text()
+        print("Lá, lá")
         QMessageBox.information(self, "", f"Introduziu: {txt}")  # type: ignore
 
 
